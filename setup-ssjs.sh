@@ -19,7 +19,8 @@ heroku plugins:install git://github.com/ddollar/heroku-config.git
 # - Edit .env to include your own COINBASE_API_KEY and HEROKU_POSTGRES_URL.
 # - Modify the .env.dummy file, and DO NOT check .env into the git repository.
 # - See .env.dummy for details.
-cp .env.dummy .env
+
+# cp .env.dummy .env
 
 # For local: setup postgres (one-time) and then run the local server
 ./pgsetup.sh
